@@ -11,20 +11,20 @@
 
 void sort1(int *a, int n) {
 
-	/* for as long as it doesn't reach the end of the array */
+    /* for as long as it doesn't reach the end of the array */
     for (int i = 0 ; i < ( n - 1 ); i++)
     {
-    	/* for as long as it doesn't reach the last element of array */
-	    for (int j = 0 ; j < ( n - i - 1 ); j++)
+        /* for as long as it doesn't reach the last element of array */
+        for (int j = 0 ; j < ( n - i - 1 ); j++)
+        {
+       	    /* if the number is greater than the next number */
+	    if (a[j] > a[j+1])
 	    {
-	    	/* if the number is greater than the next number */
-	        if (a[j] > a[j+1])
-	        {
-		         /* Swapping */
-	        	int temp = a[j];
-	        	a[j] = a[j+1];
-	        	a[j+1] = temp;
-	        }
+		/* Swapping */
+	        int temp = a[j];
+	        a[j] = a[j+1];
+	        a[j+1] = temp;
 	    }
+        }
     }
 }
