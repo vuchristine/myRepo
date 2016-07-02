@@ -11,7 +11,7 @@ File explaining what kind of sort is used, what the sort can do, where the sort 
  
  As insertion sort is already used to sort the numbers, I have decided to use bubble short and the selection sort.
  
- Bubble Sort
+ Bubble Sort:
  
  Bubble sort compares pairs of numbers that are next to each other in a group of unsorted numbers until the numbers are sorted from the smallest to the largest. 
  
@@ -20,7 +20,7 @@ File explaining what kind of sort is used, what the sort can do, where the sort 
  The time that it took to sort the numbers is 84215 milliseconds.
  
  
- Selection Sort
+ Selection Sort:
  
  Selection sort sorts a group of numbers by finding the smallest number first and then finding the second smallest number and so on until the numbers are sorted from smallest to largest.
  
