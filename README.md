@@ -9,7 +9,7 @@ README.md
 File explaining what kind of sort is used, what the sort can do, where the sort code came from, and how many milliseconds it took to sort the numbers.
 
  
- As insertion sort is already used to sort the numbers, I have decided to use bubble short and the selection sort.
+ As insertion sort is already used to sort the numbers, I have decided to use bubble sort and the selection sort.
  
  Bubble Sort:
  
